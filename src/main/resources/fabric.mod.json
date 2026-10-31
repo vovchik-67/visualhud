@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "visualhud",
+  "version": "${version}",
+  "name": "Visual HUD",
+  "description": "Клиентский HUD: FPS, координаты, пинг, броня, CPS, клавиши. Только визуальная информация — без читов, безопасно для публичных серверов.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.visualhud.VisualHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
